@@ -1,0 +1,11 @@
+create database people;
+use people;
+create table basic_inf_people(
+id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+surname VARCHAR(100) NOT NULL,
+date_of_birth DATE NOT NULL,
+sex VARCHAR(1) NOT NULL,
+city_of_birth VARCHAR(30) NOT NULL,
+PRIMARY KEY (id)
+);
